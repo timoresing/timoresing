@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,800;1,100;1,400;1,600;1,800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    background-color: rgb(79, 55, 0);
+}
+
+.navbar .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Hero Styles */
+
+.hero .card-title {
+    margin-top: 150px;
+}
+
+/* Menu Styles */
+
+.menu {
+    background-color: #F6F6F6;
+}
+
+.menu .section-title {
+    font-weight: 700;
+    color: #131313;
+}
+
+.menu .section-paragraf {
+    font-weight: 700;
+    color: #131313;
+}
+
+.menu .card {
+    background-color: #131313;
+    color: #FFFFFF;
+}
+
+.menu .card img {
+    border: 2px solid #FFFFFF;
+}
+
+.menu .card .card-title {
+    padding-top: 15px;
+    padding-bottom: 1px;
+    margin-top: -5px;
+    font-weight: 800;
+}
+
+.menu .card .card-text {
+    margin-top: -10px;
+}
+
+.menu .card .btn {
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+/* Testimoni Styles */
+
+.testi {
+    background-image: url(assets/testimoni.jpg);
+    background-size: cover;
+    height: 450px;
+}
+
+.testi .elias img {
+    margin-top: 150px;
+    width: 130px;
+}
+
+.testi .testi-s {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.testi .testi-b {
+    margin-top: -20px;
+    font-weight: 700;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #131313;
+}
